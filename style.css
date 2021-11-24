@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(mediumpurple, indianred);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+canvas {
+  border: 5px solid white;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.5);
+}
